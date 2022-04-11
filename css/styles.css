@@ -64,7 +64,7 @@ body {
   padding: 0;
   font-family: 'Nunito Sans', 'Arial', sans-serif;
   color: var(--text-color-light);
-  line-height:16;
+  line-height: 16px;
   font-size: 14px;
 }
 
