@@ -101,6 +101,7 @@ img{
 
 .site-header-heading{
   color: var(--text-color-light);
+  white-space: nowrap;
 }
 
 .site-header {
@@ -125,6 +126,7 @@ img{
   margin-left: 8px;
 }
 .button-light{
+  display: flex;
   background-color: var(--text-color-dark);
   width: 108px;
   border: 0;
@@ -140,7 +142,7 @@ img{
   background-image: url("../img/icon-search-black.svg");
   background-repeat: no-repeat;
   padding-top: 20px;
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
   background-color: var(--text-color-dark);
   padding-bottom: 20px;
   padding-left: 74px;
@@ -234,6 +236,7 @@ margin-left: 24px;
 }
 
 .button-back {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -251,22 +254,45 @@ margin-left: 24px;
 
 .learn-more-wrapper {
   display: flex;
-}
-.countries-img {
+  align-items: center;
 }
 .countries-info {
+  max-width: 598px;
+  width: 100%;
+  margin-left: 162px;
 }
 .countries-info-heading {
+  margin-bottom: 24px;
 }
-.info-about-countries-list {
+.desctription-contriy {
+  display: flex;
+  justify-content: space-between;
 }
-.desctription-wrapper {
+.countries-img{
+white-space: nowrap;
+flex-shrink: 0;
 }
-.desctription-heading {
+.desctription-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 68px;
 }
-.desctription-text {
+  .desctription-item:not(:last-child){
+    margin-bottom: 10px;
+  }
+.border{
+  margin-right: 15px;
+  white-space: nowrap;
 }
-.desctription-stage {
-}
-.desctription-wrapper-right {
+.border-link{
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  background-color:var(--text-color-dark);
+  color: var(--text-color-light);
+  padding:5px 28px;
+  border-radius: 5px;
+  width: 136px;
+  border: 0;
 }
