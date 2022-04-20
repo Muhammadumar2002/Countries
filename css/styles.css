@@ -100,30 +100,39 @@ img{
 }
 
 .site-header-heading{
+  margin: 0;
+  padding: 0;
   color: var(--text-color-light);
   white-space: nowrap;
 }
 
 .site-header {
   background-color: var(--text-color-dark);
-  padding-top: 24px;
+  padding-top: 23px;
+  padding-bottom: 24px;
 }
 .site-header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .icon-moon{
   display: flex;
   align-items: center;
+
 }
 
 .icon-moon-img{
   color:var(--text-color-light);
+
 }
 .dark{
   color: var(--text-color-light);
   margin-left: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 .button-light{
   display: flex;
@@ -157,6 +166,7 @@ color: var(--text-color-light);
 background-color:var(--text-color-dark);
 }
 .filter-by-region{
+  border: 0;
   color: var(--text-color-light);
   background-color:var(--text-color-dark);
   border-radius: 5px;
@@ -165,6 +175,11 @@ background-color:var(--text-color-dark);
   padding-left: 24px;
   padding-right: 77px;
   box-shadow: 0px 2px 9px 0px #0000000E;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .main-wrapper{
